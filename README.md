@@ -1,6 +1,32 @@
 # VSCode AI Agent (Python)
 
-A Python-based AI agent that integrates with VSCode to provide file system operations, code editing, and terminal management capabilities.
+```
+
+██╗   ██╗███████╗ ██████╗ ██████╗ ██████╗ ███████╗     █████╗ ██╗     █████╗  ██████╗ ███████╗███╗   ██╗████████╗
+██║   ██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔════╝    ██╔══██╗██║    ██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝
+██║   ██║█████╗  ██║     ██║   ██║██║  ██║█████╗      ███████║██║    ███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   
+╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██║  ██║██╔══╝      ██╔══██║██║    ██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   
+ ╚████╔╝ ███████╗╚██████╗╚██████╔╝██████╔╝███████╗    ██║  ██║██║    ██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   
+  ╚═══╝  ╚══════╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝    ╚═╝  ╚═╝╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   
+                                                                                                                 
+
+```
+
+## 🚀 Open Source & Community Driven
+
+**Join us in building the future of free development tools!**
+
+This is an **open source** AI agent that integrates with VSCode to provide file system operations, code editing, and terminal management capabilities. We believe that **any tool for developers should be free** - just like VS Code itself.
+
+While other software like Cursor have raised their usage limits and are taking advantage of VS Code's open source foundation, we're committed to keeping development tools accessible to everyone. We need the community to join us in building this agent as a truly free alternative.
+
+### Why Open Source Matters
+- **No usage limits** - Use it as much as you need
+- **Community-driven development** - Built by developers, for developers
+- **Transparent and trustworthy** - You can see exactly what the code does
+- **Free forever** - No subscriptions, no paywalls
+
+A Python-based AI agent that provides comprehensive development assistance without the restrictions of commercial alternatives.
 
 ## Setup
 
@@ -131,6 +157,28 @@ await agent("term.open", {session_id: "dev"});
 await agent("term.exec", {session_id: "dev", command: "pnpm dev"});
 const out = await agent("term.read", {session_id: "dev"});
 ```
+
+## 🤝 Community & Contributing
+
+**We need your help to make this the best free AI coding assistant!**
+
+### How to Contribute
+- **Report bugs** - Help us identify and fix issues
+- **Suggest features** - Share your ideas for improvements
+- **Submit pull requests** - Contribute code, documentation, or tests
+- **Share feedback** - Tell us how you're using the agent
+- **Spread the word** - Help others discover this free alternative
+
+### Why Your Contribution Matters
+By contributing to this project, you're helping to:
+- Keep development tools free and accessible
+- Build a community-owned alternative to commercial solutions
+- Ensure that AI-powered coding assistance remains open to all developers
+- Challenge the trend of monetizing open source foundations
+
+**Together, we can build something better than the commercial alternatives - and keep it free forever.**
+
+---
 
 ## Security Hardening
 
